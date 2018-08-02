@@ -176,7 +176,7 @@ class RNNBinaryAdd:
         return result
     
     '''
-    error function: MSE
+    error function: 
     '''
     def errorFun(self, target, output):       
         result = np.power((target - output),2)/2.0
@@ -184,8 +184,6 @@ class RNNBinaryAdd:
     
     '''
     the derivative of the error function respect to hidden layer output at state n
-    NOTE:
-        MSE function is applied here
     '''
     def errorDerivativeOutput(self, n):
         output = self.output_seq[n]
@@ -412,14 +410,6 @@ class RNNBinaryAdd:
                 overall error in 10 times during the training process
                 '''
                 if count % (len(training_data)/10) == 0:
-                    '''
-                    MSE
-                    '''
-                    '''
-                    overallerror = 0
-                    for i in list(zip(self.target_seq, self.output_seq)):
-                        overallerror += self.errorFun(i[0], i[1])
-                    '''
                     
                     '''
                     ABS error
