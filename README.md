@@ -1,5 +1,7 @@
 # RNN Tutorial: A Binary Addition Example
-This is an implementation of a simple RNN modeling the Binary Addition . 
+This is an implementation of a simple RNN modeling the Binary Addition.  
+
+An explicit explanation can be found here [Yet Another Recurrent Neural Network (RNN) Tutorial: An Explicit Explanation](https://medium.com/@yaopeng4504/yet-another-recurrent-neural-network-rnn-tutorial-an-explicit-explanation-1fb149688a14)
 
 # Usage
 
